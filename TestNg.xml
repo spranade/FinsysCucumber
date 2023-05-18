@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-2.4.dtd">  -->
+<suite name="Suite" parallel="tests" thread-count="4">
+
+<!-- <listerners>
+	<listener class-name="ejagruti.finsys.listeners.Listener" />
+</listerners> -->
+
+    <test name="Test - 1">
+        <classes>
+            <class name="ejagruti.finsys.modules.TestRunner">
+                <!-- <methods>
+                    <include name="runTests" />
+                </methods> -->
+            </class>
+        </classes>
+    </test>
+</suite>

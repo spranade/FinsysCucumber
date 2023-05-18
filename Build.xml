@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="FinsysCucumber" default="zip" basedir=".">
+
+    <property name="project-name" value="${ant.project.name}" />
+    <property name="folder-to-zip" value="target/site/cucumber-reports" />
+    <property name="unzip-destination" value="unzipped" />
+
+    <target name="clean">
+        <delete file="${project-name}.zip" />
+        <delete file="${unzip-destination}" />
+    </target>
+
+    <target name="zip">
+    <zip destfile="Execution_Report.zip" basedir="${folder-to-zip}" excludes="dont*.*" />
+    </target>
+	
+</project>
