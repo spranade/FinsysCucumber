@@ -39,10 +39,10 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	 Reporter.loadXMLConfig(System.getProperty("user.dir")+"/src/test/resources/extent-config.xml");
 	 Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
      Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
-     Reporter.setSystemInfo("Machine", " Windows 10 " + " 32 Bit ");
+     Reporter.setSystemInfo("Machine", "Windows 10" + "32 Bit");
      Reporter.setSystemInfo("Selenium", "3.141.59");
-     Reporter.setSystemInfo("Maven", "3.6.3");
-     Reporter.setSystemInfo("Java Version", "1.8.0_261");
+     Reporter.setSystemInfo("Maven", "3.9.1");
+     Reporter.setSystemInfo("Java Version", "1.8.0_341");
 	 }
 	
 	

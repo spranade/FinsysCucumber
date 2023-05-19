@@ -9,7 +9,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import ejagruti.finsys.config.TestBase;
 
 public abstract class Listener extends TestBase implements ITestListener {
-/*
+
 
 	public void onTestStart (ITestResult result) 
 	{
@@ -69,6 +69,6 @@ public abstract class Listener extends TestBase implements ITestListener {
 	{
 		
 	}
-*/
+
 
 }

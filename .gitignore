@@ -1,0 +1,8 @@
+/target/
+/test-output/
+/logs/
+/.idea/
+/.settings/
+/target/*
+/test-output/*
+/logs/*
